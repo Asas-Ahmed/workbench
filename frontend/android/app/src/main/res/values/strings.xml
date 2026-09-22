@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CoC Studio</string>
-    <string name="title_activity_main">CoC Studio</string>
+    <string name="app_name">ASAS Workbench</string>
+    <string name="title_activity_main">ASAS Workbench</string>
     <string name="package_name">com.asaslabs.cocstudio</string>
     <string name="custom_url_scheme">com.asaslabs.cocstudio</string>
     <string name="version_name">1.0.0</string>

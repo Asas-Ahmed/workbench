@@ -16,7 +16,7 @@ export function DashboardPage() {
         }}>
           <img 
             src={Logo} 
-            alt="CoC Studio Logo" 
+            alt="ASAS Workbench Logo" 
             style={{ 
               width: "clamp(120px, 22vw, 180px)", 
               height: "clamp(120px, 22vw, 180px)", 
@@ -35,7 +35,7 @@ export function DashboardPage() {
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent"
         }}>
-          CoC Studio
+          ASAS Workbench
         </h1>
         <p style={{ 
           color: "var(--text-muted)", 

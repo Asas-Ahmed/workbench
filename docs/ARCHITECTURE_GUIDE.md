@@ -1,6 +1,6 @@
-# CoC Studio - Feature Addition & Architecture Guide
+# ASAS Workbench - Feature Addition & Architecture Guide
 
-Welcome to the **CoC Studio** developer workspace! This document outlines how to easily add new pages, features, and custom services to this application while maintaining a clean, highly organized, and robust codebase.
+Welcome to the **ASAS Workbench** developer workspace! This document outlines how to easily add new pages, features, and custom services to this application while maintaining a clean, highly organized, and robust codebase.
 
 ---
 

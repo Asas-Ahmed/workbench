@@ -3,9 +3,8 @@ package app
 import (
 	"context"
 	"time"
-
-	"asas-coc-studio/backend/internal/settings"
-	"asas-coc-studio/backend/internal/workspace"
+	"asas-workbench/backend/internal/settings"
+	"asas-workbench/backend/internal/workspace"
 )
 
 type App struct {

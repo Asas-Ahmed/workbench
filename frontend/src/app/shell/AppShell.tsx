@@ -188,7 +188,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             <Cpu size={20} />
           </div>
           <div className="brand-text">
-            <strong>CoC Studio</strong>
+            <strong>ASAS Workbench</strong>
             <span>Powered by ASAS Labs</span>
           </div>
         </div>

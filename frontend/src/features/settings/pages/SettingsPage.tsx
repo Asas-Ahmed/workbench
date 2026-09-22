@@ -285,14 +285,14 @@ export function SettingsPage() {
           </div>
           <div>
             <h3>System & Architecture Information</h3>
-            <p>CoC Studio desktop runtime specifications and core service status.</p>
+            <p>ASAS Workbench desktop runtime specifications and core service status.</p>
           </div>
         </div>
 
         <div className="meta-grid">
           <div className="meta-item">
             <span className="meta-label">Application</span>
-            <span className="meta-value">CoC Studio v1.0.0</span>
+            <span className="meta-value">ASAS Workbench v1.0.0</span>
           </div>
 
           <div className="meta-item">

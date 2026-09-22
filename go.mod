@@ -1,4 +1,4 @@
-module asas-coc-studio
+module asas-workbench
 
 go 1.26.8
 

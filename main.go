@@ -8,7 +8,7 @@ import (
 	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
 	"github.com/wailsapp/wails/v2/pkg/options/linux"
 
-	backendApp "asas-coc-studio/backend/app"
+	backendApp "asas-workbench/backend/app"
 )
 
 //go:embed all:frontend/dist
@@ -21,7 +21,7 @@ func main() {
 	app := backendApp.New()
 
 	err := wails.Run(&options.App{
-		Title:  "ASAS CoC Studio",
+		Title:  "ASAS Workbench",
 		Width:  1024,
 		Height: 768,
 		AssetServer: &assetserver.Options{

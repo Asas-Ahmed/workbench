@@ -1,33 +1,33 @@
-# CoC Studio
+# ASAS Workbench
 
-> A powerful, multi-platform workspace for **CoC** (Clash of Clans / Community / Creators), developed by **ASAS Labs**.
+> A powerful, multi-platform personal workspace for tools, utilities, and solutions to real-world problems I face, developed by **ASAS Labs**.
 
-**CoC Studio** is an extensible cross-platform application designed to bring tools, workflows, utilities, and creative ideas into one polished workspace across **Android, Linux, and Windows**.
+**ASAS Workbench** is an extensible cross-platform application designed to bring tools, workflows, utilities, and creative ideas into one polished workspace across **Android, Linux, and Windows**.
 
-Built with a robust hybrid architecture utilizing **Go + Wails** for desktop and **Capacitor** for Android, paired with a modern **React + TypeScript + Vite** frontend, CoC Studio is engineered for continuous growth, clean separation of concerns, and rapid feature expansion.
+Built with a robust hybrid architecture utilizing **Go + Wails** for desktop and **Capacitor** for Android, paired with a modern **React + TypeScript + Vite** frontend, ASAS Workbench is engineered for continuous growth, clean separation of concerns, and rapid feature expansion.
 
 ---
 
 ## ✨ Vision
 
-CoC Studio isn't meant to be just another utility.
+ASAS Workbench is my personal, powerful workspace where I can seamlessly add new tools and workflows as I need them.
 
-The goal is to build a **single, powerful workspace** where new tools and workflows can be added seamlessly without turning the application into an unmaintainable monolith.
+The goal is to have a single application to host solutions to the real-world problems I encounter, ensuring the application remains maintainable as it grows.
 
-Everything is organized around independent feature modules and a centralized route registry, allowing CoC Studio to continuously evolve as new ideas are added.
+Everything is organized around independent feature modules and a centralized route registry, allowing ASAS Workbench to continuously evolve.
 
 ---
 
 ## 🧩 Architecture & Multi-Platform Support
 
-CoC Studio follows a **feature-first architecture** with a centralized route registry (`frontend/src/config/routes.tsx`) and application shell layout (`AppShell`). 
+ASAS Workbench follows a **feature-first architecture** with a centralized route registry (`frontend/src/config/routes.tsx`) and application shell layout (`AppShell`). 
 
 It supports multiple platforms from a unified codebase:
 1. **Desktop (Linux & Windows):** Powered by **Go + Wails**, exposing native Go backend services directly via thin Wails bindings to the React frontend.
 2. **Mobile (Android):** Powered by **Capacitor**, wrapping the web frontend for Android devices with native asset integration and Gradle builds.
 
 ```text
-coc-studio/
+ASAS Workbench/
 │
 ├── cmd/
 │   └── main.go
@@ -75,7 +75,7 @@ A new feature lives entirely inside its own module:
 
 ```text
 features/
-└── analytics/
+└── my-new-tool/
     ├── pages/
     ├── components/
     ├── hooks/
@@ -84,7 +84,7 @@ features/
     └── index.ts
 ```
 
-Adding a new feature is as simple as creating the feature folder, writing your page component, and registering it in `frontend/src/config/routes.tsx`. It automatically appears in the sidebar navigation and command search palette (`Cmd/Ctrl + K`)!
+Adding a new tool or feature is as simple as creating the feature folder, writing your page component, and registering it in `frontend/src/config/routes.tsx`. It automatically appears in the sidebar navigation and command search palette (`Cmd/Ctrl + K`)!
 
 ---
 
@@ -127,10 +127,6 @@ Business logic should not be buried inside React components or direct platform c
 
 Features communicate through stable public interfaces rather than importing each other's internal implementation.
 
-### Don't over-engineer early
-
-New infrastructure is introduced when an actual feature needs it.
-
 ---
 
 ## 📦 Getting Started & Commands
@@ -144,7 +140,7 @@ New infrastructure is introduced when an actual feature needs it.
 
 ### Automation with Makefile
 
-CoC Studio provides a convenient `Makefile` to handle development and cross-platform builds:
+ASAS Workbench provides a convenient `Makefile` to handle development and cross-platform builds:
 
 #### 1. Install Frontend Dependencies
 ```bash
@@ -176,15 +172,15 @@ make dev
 
 ## 🗂️ Adding a New Feature
 
-Please check [docs/ARCHITECTURE_GUIDE.md](docs/ARCHITECTURE_GUIDE.md) for a comprehensive 3-step guide on adding new pages and features to CoC Studio.
+Please check [docs/ARCHITECTURE_GUIDE.md](docs/ARCHITECTURE_GUIDE.md) for a comprehensive 3-step guide on adding new pages and features to ASAS Workbench.
 
 ---
 
 ## 🎨 Product
 
-**CoC Studio**
+**ASAS Workbench**
 
-* Short name: **CoC Studio**
+* Short name: **ASAS Workbench**
 * Brand: **ASAS Labs**
 
 ---
@@ -193,15 +189,13 @@ Please check [docs/ARCHITECTURE_GUIDE.md](docs/ARCHITECTURE_GUIDE.md) for a comp
 
 > 🚧 Active Development
 
-The core architecture, navigation shell, command palette, dashboard, settings module, and multi-platform support (Android, Linux, Windows) are fully established.
+The core architecture, navigation shell, command palette, dashboard, settings module, and multi-platform support (Android, Linux, Windows) are fully established. I am actively adding new personal tools and workflows as needed.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, ideas, architecture discussions, and feature proposals are welcome.
-
-Before implementing a large feature, please open an issue or discussion so the architecture can be considered first.
+This is a personal workspace for ASAS Labs.
 
 ---
 
@@ -211,6 +205,6 @@ MIT
 
 ---
 
-**ASAS Labs · Building CoC Studio**
+**ASAS Labs · Building ASAS Workbench**
 
 

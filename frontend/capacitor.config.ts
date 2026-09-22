@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.asaslabs.cocstudio',
-  appName: 'CoC Studio',
+  appName: 'ASAS Workbench',
   webDir: 'dist'
 };
 

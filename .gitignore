@@ -80,6 +80,7 @@ settings.local.*
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+.kilo
 
 *.swp
 *.swo
